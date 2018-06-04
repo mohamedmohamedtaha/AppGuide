@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="text_size_text_view">16sp</dimen>
+    <dimen name="layout_wight">200dp</dimen>
+    <dimen name="layout_height">300dp</dimen>
+    <dimen name="one_handrad">100dp</dimen>
+
+
+    <dimen name="margin_bottom">32dp</dimen>
+    <dimen name="margin_ten">10dp</dimen>
+    <dimen name="drawable_padding">5dp</dimen>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Mosques"
+            android:icon="@drawable/ic_mosque"
+            android:title="@string/mosques" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/restaurants" />
+        <item
+            android:id="@+id/nav_shopping"
+            android:icon="@drawable/ic_shopping"
+            android:title="@string/shopping" />
+        <item
+            android:id="@+id/nav_others"
+            android:title="@string/others" />
+
+    </group>
+
+</menu>

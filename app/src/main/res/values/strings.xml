@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">AppGuide</string>
+
+    <!-- strings for menu drawable_view-->
+    <string name="restaurants">Restaurants</string>
+    <string name="mosques">Mosques</string>
+    <string name="shopping">Shopping</string>
+    <string name="others">Others</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="resturant">
+        <item>Khan Al-Khalily</item>
+        <item>Al Fishawi</item>
+        <item>Al-Azhar</item>
+        <item>Ghouri</item>
+    </string-array>
+    <string-array name="titles_pages">
+        <item>mosques</item>
+        <item>sourceData</item>
+        <item>shopping</item>
+    </string-array>
+    <string name="name_one">Haty Abou Bassem</string>
+    <string name="address_one">2 El Gehiny Alley, In Front Of Al Azhar University, El Hussein, Cairo
+Cairo - Al Hussein</string>
+    <string name="phone_one">0225883535 - 01001946026 - 0225937935</string>
+
+    <string name="name_two">Hattie hope
+</string>
+    <string name="address_two">26 El Mashhad El Husseiny St., Khan El Khalili, Cairo
+        
+Cairo - Khan al-Khalili</string>
+    <string name="phone_two">0225934784</string>
+
+    <string name="name_three">Al Dahan Restaurant</string>
+    <string name="address_three">16 Gawhar El Qaed St., Inside Commercial Center, El Hussein, Cairo
+        
+Cairo - Al Hussein</string>
+    <string name="phone_three">0225939325</string>
+
+    <string name="name_four">El Zoghbi Restaurant</string>
+    <string name="address_four">120 Gawhar El Qaed St., El Hussein, Cairo
+Cairo - Al Hussein</string>
+    <string name="phone_four">0227869098 - 0225917658</string>
+
+    <string name="name_five">Opera Khan Al Khalili and Naguib Mahfouz Cafe</string>
+    <string name="address_five">5 Sekket El Badstan St., Near To El Hussein Mosque, Khan El Khalili, Cairo Cairo - Khan al-Khalili</string>
+    <string name="phone_five">0225903788 - 0225902735 - 01005808380</string>
+
+    <string name="name_six">Maliki</string>
+    <string name="address_six">28 Al-Mashhad Al Husseini Square, Al-Hussein</string>
+    <string name="phone_six">19361</string>
+
+    <string name="name_seven">Kebabji Farhat</string>
+    <string name="address_seven">Al Azhar Branch: 129 Al Azhar Street</string>
+    <string name="phone_seven">25926595</string>
+
+    <string name="name_nine">Phyt Food</string>
+    <string name="address_nine">ELHussein</string>
+    <string name="phone_nine">01066040463</string>
+
+    <string name="name_ten">A domestic dish</string>
+    <string name="address_ten">ELHussein</string>
+    <string name="phone_ten">01142776008</string>
+
+
+    <!--  text for fragment Mosques -->
+    <string name="mosque_name_one">Mosque of Hussein </string>
+    <string name="mosque_address_one"> Hussein</string>
+    <string name="mosque_description_main_one">
+  Is one of the most important mosques in Egypt and one of the most famous mosques in the Islamic world.</string>
+    <string name="mosque_description_detail_one">The Mosque dates back to the Fatimid era, where it was built in AH 549 AH, corresponding to 1154 AD. The mosque in the month of Ramadan increases with light and light, and the masculine rings of the Sufis rise, echoing the prayers and nominations. This gives the neighborhood a spiritual halo that is nowhere else in Cairo. . The visit starts with reading al-Faatihah for al-Husayn. It is enough to pray in the mosque to feel the renewal of your spiritual energy and the disappearance of the negative energies</string>
+
+
+    <string name="mosque_name_two">Al Azhar Mosque</string>
+    <string name="mosque_address_two">Al Azhar Mosque</string>
+    <string name="mosque_description_main_two">Is one of the most important mosques in Egypt and one of the most famous mosques in the Islamic world. </string>
+    <string name="mosque_description_detail_two">
+    Is one of the most important mosques in Egypt and one of the most famous mosques in the Islamic world. A mosque and university more than a thousand years ago, was established by Jawhar al-Saqli when the conquest of Cairo in 970 AD, by order of the Moez Ladin Allah, the first Fatimid caliphs in Egypt, and after the founding of Cairo began the establishment of Al-Azhar Mosque, Al-Azhar in 14 Ramadan in the year 359 AH - 970 AD, and completed the construction of the mosque in the month of Ramadan in the year 361 AH - 972 AD, it is the first Anchi Mosque in the city of Cairo, which gained the title of the city of one thousand minaret. Historians have differed on the origin of the designation of this mosque, and most likely the Fatimids were named by Al-Azhar after Fatima Al-Zahra, daughter of the Prophet Muhammad, and praised her memory.
+    </string>
+    <!--  text for fragment Shopping -->
+    <string name="shopping_name_one">Khan Al-Khalily</string>
+    <string name="shopping_address_one">ELHussein</string>
+    <string name="shopping_description_detail_one">
+Your visit to Al Hussein neighborhood will not be complete without your passage to Khan El Khalili, where Egyptian handicrafts are made of costume, fabrics, clothes, shells and arabesques, and copper, silver and gold. Khan al-Khalili dates back to the Mamluk period and was built by Prince Jihad al-Khalili, one of the princes of Sultan Barqouq, and you can buy wonderful souvenirs for your friends, whether Islamic or Pharaonic.
+</string>
+
+    <string name="shopping_name_two">Moez Street</string>
+    <string name="shopping_address_two">ELHussein</string>
+    <string name="shopping_description_detail_two">
+    The atmosphere of Ramadan in Al-Moez Street has a special taste. It is the oldest street in Cairo and it is over a thousand years old. It smells of the history of houses and shops, and here you can enjoy the fun of walking. The street includes 212 unique Islamic monuments that combine the Egyptian, Ottoman, Andalusian and Byzantine architecture, which are reflected in the mosques, eaves, domes, houses and old buildings that are filled with the street. There is a festive atmosphere, especially in the month of Ramadan, where the joyful decorations and lanterns everywhere and the corner, as well as offers skirts and carnivals that are answered all night
+
+    </string>
+    <string name="shopping_name_three">House of Suhaimi</string>
+    <string name="shopping_address_three">ELHussein</string>
+    <string name="shopping_description_detail_three">
+This ancient house is one of the most beautiful houses of the Fatimid era in Egypt, and the tour is back to the atmosphere of those ages. Despite its 350 years old, it still retains the splendor of its architecture and Islamic decoration. A variety of art shows are being held under the supervision of the Egyptian Ministry of Culture, including "Silhouette" and "Arajouz" as one of the cultural and aesthetic items created by the Egyptian collective conscience.
+</string>
+
+    <string name="shopping_name_four">Al Ghouri Agency</string>
+    <string name="shopping_address_four">ELHussein</string>
+    <string name="shopping_description_detail_four">
+
+    To complete the spiritual dose that transcends the hustle and bustle of Al Hussein neighborhood, you can attend one of the Sufi Skirt and Sufi dance performances offered by the Tannoura Ensemble in a historical atmosphere. The Agencys building dates back to the 15th century AD. It was surrounded by shops on four floors that were intended to receive merchants with their goods. It had a place for animals, stores for crops and places for the arrival of foreign merchants, but it now follows the Ministry of Culture and turned into an art center.
+    </string>
+
+    <!--  text for fragment Others  -->
+    <string name="others_name_one">Le Riad Hotel</string>
+    <string name="others_address_one">114 Muiz Li Din Allah St., Cairo, Al Moez Ldin Allah Al Fatmi, Qism El-Gamaleya, Cairo Governorate, Egypt</string>
+    <string name="others_phone_one">+20 2 27876074</string>
+
+
+    <string name="others_description_one">
+If you fell in love with Al Hussein, you can also stay in one of its boutique hotels.
+,
+Including a hotel
+ «Le Riad ..
+Tell a story »
+
+ Le Riad tell a story
+ Component
+ Of 5 floors in the heart of Cairo
+Historic 200 meters from Bab Zuwaila,
+ Facing Al-Suhaimis historic house, Al-Moez historic street, Le Riad is characterized by a simple architectural façade of Arabesque. The facade of deception does not suggest the luxury of the hotel, which is similar to the international hotels.
+The hotel is a boutique hotel but it is both luxurious and simple. The hotel has 17 suites, each of which has its own unique design and decoration that takes you for long periods of time, and moving between them will surprise you with its ability to take you to a different ambience. All you have to do is choose between the time periods you want to live in. If you are a fan of Pharaonic civilization, you can stay in the Pharaonic Pavilion, designed in such a way as to give you the feeling that you are in a Pharaonic temple. Positive and a sense of the greatness of the Pharaohs. If you are a lover of the Middle Ages, you can choose a Mamluk-style "owned" suite with a picture of a tree and a queen-like furniture. If you are a fan of the sixties, you can choose the wing of "Planet of the East Umm Kulthum", which is designed to contain pieces of furniture and antique antiques, suggesting that the era of many of the pioneers of the hotel, especially the Arabs
+</string>
+
+    <string name="intro">
+
+
+, Is one of Cairo s neighborhoods
+And administratively follows the neighborhood of the aesthetic,
+A number of attractions
+Archaeological sites
+Islamic
+Old
+And Fatimid
+In a manner
+big
+Such as
+Mosque of Hussein
+, Area
+Khan Al-Khalily
+And Al-Azhar Mosque.
+
+This neighborhood was built with the construction of the mosque of the Hussein in the Fatimid era in 549 AH corresponding to 1154 AD under the supervision of Minister Saleh Talaie, and includes the mosque 3 doors built white marble overlooking the Khan Khalili, and another door next to the dome and known as the green door. Click to view full size image Click to view full size image Click to view full size image Click to view full size image P Rh in a separate page and buried in the current location of the mosque and met him. , And the construction of the building in the days of Abbas I and Khedive Ismail.
+The minaret of the mosque is the work of Abi al-Qasim al-Sukkar in the year 633 AH-1235 AD and is decorated with Ayyubid motifs. In 1885, the famous Islamic engineer Abdul Rahman Katkhada built the dome And the upper part of the minaret of the green door, has been increasing the size of its area and intensifying its strength.
+In 1965, the rich Buhara donated a silver box studded with rows of diamonds. In 1893 was created a small room inside the mosque and offset some of the prophetic effects such as the sword of the Messenger of Allah peace be upon him and the hair of a hair.
+It was a matter of religious tourism, especially in the month of Ramadan, and the mamar
+The visit of the Egyptians and their guests to touch the fragrance of the holy month and its blossoms is the old Hussein neighborhood, so Hussein visited great fun despite the state of hustle that does not leave the neighborhood throughout the year. Traveling in the neighborhood of Hussein reveals you a large part of Cairo's past and contemporary history, where the past of Cairo embodied in the archaeological buildings And ancient antiques dating back to the 14th century. Al-Hussein neighborhood, which does not sleep or walk at night or day, and extends the sessions of the month and the day to dawn until dawn, which is full of tourist attractions, entertainment and religious, Nahum receives mosques and archaeological sites and shopping and enjoy the atmosphere of popular cafes open.
+
+ </string>
+
+</resources>
