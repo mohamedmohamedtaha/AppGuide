@@ -7,6 +7,7 @@
     <string name="shopping">تسوق</string>
     <string name="others">اخرى</string>
     <string name="settings">اعدادات</string>
+    <string name="language">اللغة</string>
 
     <string-array name="resturant">
         <item>خان الخليلي</item>

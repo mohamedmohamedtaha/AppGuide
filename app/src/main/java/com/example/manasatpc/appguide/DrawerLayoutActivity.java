@@ -9,10 +9,18 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.support.v7.widget.Toolbar;
+import android.widget.Toast;
 
 public class DrawerLayoutActivity extends AppCompatActivity {
+    private String mLanguageCodeARABIC = "ar";
+    private static boolean isArabic = true;
+
+    private String mLanguageCodeENGLISH = "en_US";
+
     public static final String SAVE_STATE = "save_state";
     String[] titles;
     Toolbar toolbar;
@@ -21,6 +29,15 @@ public class DrawerLayoutActivity extends AppCompatActivity {
     CharSequence charSequence = null;
     //define DrawerLayout
     private DrawerLayout mDrawerLayout;
+    private Boolean setLanguage(){
+        if (isArabic){
+            return true;
+        }
+        else{
+            return  false;
+        }
+        //return isArabic;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +109,7 @@ public class DrawerLayoutActivity extends AppCompatActivity {
             case R.id.nav_others:
                 fragment = new OthersFragment();
                 break;
+
             default:
                 fragment = new TopFragment();
         }
@@ -109,10 +127,31 @@ public class DrawerLayoutActivity extends AppCompatActivity {
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.language,menu);
+        return true;
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
+                break;
+
+                //for change Language
+            case R.id.ab_language:
+                if (setLanguage()){
+                    LocaleHelper.setLocale(DrawerLayoutActivity.this,mLanguageCodeARABIC);
+                    isArabic = false;
+                    recreate();
+                }else {
+                    LocaleHelper.setLocale(DrawerLayoutActivity.this,mLanguageCodeENGLISH);
+                    isArabic = true;
+                    recreate();
+                }
+
                 break;
         }
         return true;

@@ -7,6 +7,7 @@
     <string name="shopping">Shopping</string>
     <string name="others">Others</string>
     <string name="settings">Settings</string>
+    <string name="language">Language</string>
 
     <string-array name="resturant">
         <item>Khan Al-Khalily</item>
