@@ -1,8 +1,10 @@
-package com.example.manasatpc.appguide;
+package com.example.manasatpc.appguide.fragment;
 
 
 import android.app.ListFragment;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +13,12 @@ import java.util.ArrayList;
 
 import android.app.Fragment;
 import android.widget.ListView;
+
+import com.example.manasatpc.appguide.R;
+import com.example.manasatpc.appguide.adapter.Adapterobjects;
+import com.example.manasatpc.appguide.model.SourceData;
+
+import static com.example.manasatpc.appguide.DrawerLayoutActivity.toolbar;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -33,17 +41,17 @@ public class MosquesFragment extends ListFragment {
                              Bundle savedInstanceState) {
 
         //setup the data source
-        ArrayList<SourceData> sourceDataArrayList = getDataRestaurant();
+        ArrayList<SourceData> sourceDataArrayList = getDataMosques();
 
-        AdapterRestaurant adapterRestaurant = new AdapterRestaurant(getActivity(), sourceDataArrayList);
-        setListAdapter(adapterRestaurant);
+        Adapterobjects adapterobjects = new Adapterobjects(getActivity(), sourceDataArrayList);
+        setListAdapter(adapterobjects);
 
 
         return super.onCreateView(inflater, container, savedInstanceState);
     }
     //method for full data
 
-    private ArrayList<SourceData> getDataRestaurant() {
+    private ArrayList<SourceData> getDataMosques() {
         sourceData = new ArrayList<SourceData>();
         sourceData.add(new SourceData(getString(R.string.mosque_name_one),
                 getString(R.string.mosque_description_main_one), getString(R.string.mosque_address_one)
@@ -74,13 +82,18 @@ public class MosquesFragment extends ListFragment {
                 bundle.putInt(PHOTO_MOSQUES, R.drawable.elazhar);
                 break;
         }
-
-
         DetailFragment startFragment = new DetailFragment();
         startFragment.setArguments(bundle);
-        getActivity().getFragmentManager().beginTransaction().replace(R.id.content_frame, startFragment, null)
+
+        getActivity().getFragmentManager().beginTransaction().replace(R.id.content_frame, startFragment,null)
                 .addToBackStack(null).commit();
 
+
+    }
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        toolbar.setTitle(R.string.mosques);
 
     }
 

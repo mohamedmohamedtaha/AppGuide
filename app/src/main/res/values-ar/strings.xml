@@ -6,7 +6,7 @@
     <string name="mosques">مساجد</string>
     <string name="shopping">تسوق</string>
     <string name="others">اخرى</string>
-    <string name="settings">اعدادات</string>
+
     <string name="language">اللغة</string>
 
     <string-array name="resturant">
@@ -15,11 +15,8 @@
         <item>الأزهر</item>
         <item>الغورية</item>
     </string-array>
-    <string-array name="titles_pages">
-        <item>mosques</item>
-        <item>sourceData</item>
-        <item>shopping</item>
-    </string-array>
+
+
     <string name="name_one">حاتى ابو باسم</string>
     <string name="address_one">2 حارة الجهينى, امام جامعة الازهر, الحسين, القاهرة
 القاهرة - الحسين</string>

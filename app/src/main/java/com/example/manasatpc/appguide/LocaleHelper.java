@@ -56,7 +56,9 @@ public class LocaleHelper {
 
                Configuration configuration = context.getResources().getConfiguration();
                configuration.setLocale(locale);
-               return context.createConfigurationContext(configuration);
+               context.createConfigurationContext(configuration);
+               //context.getResources().updateConfiguration(configuration,context.getResources().getDisplayMetrics());
+               return context;
            }
            @SuppressWarnings("deprecation")
     private static Context updateResourcesLegacy(Context context, String language){

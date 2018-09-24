@@ -6,7 +6,7 @@
     <string name="mosques">Mosques</string>
     <string name="shopping">Shopping</string>
     <string name="others">Others</string>
-    <string name="settings">Settings</string>
+
     <string name="language">Language</string>
 
     <string-array name="resturant">
@@ -15,11 +15,7 @@
         <item>Al-Azhar</item>
         <item>Ghouri</item>
     </string-array>
-    <string-array name="titles_pages">
-        <item>mosques</item>
-        <item>sourceData</item>
-        <item>shopping</item>
-    </string-array>
+
     <string name="name_one">Haty Abou Bassem</string>
     <string name="address_one">2 El Gehiny Alley, In Front Of Al Azhar University, El Hussein, Cairo
 Cairo - Al Hussein</string>
@@ -150,5 +146,8 @@ It was a matter of religious tourism, especially in the month of Ramadan, and th
 The visit of the Egyptians and their guests to touch the fragrance of the holy month and its blossoms is the old Hussein neighborhood, so Hussein visited great fun despite the state of hustle that does not leave the neighborhood throughout the year. Traveling in the neighborhood of Hussein reveals you a large part of Cairo's past and contemporary history, where the past of Cairo embodied in the archaeological buildings And ancient antiques dating back to the 14th century. Al-Hussein neighborhood, which does not sleep or walk at night or day, and extends the sessions of the month and the day to dawn until dawn, which is full of tourist attractions, entertainment and religious, Nahum receives mosques and archaeological sites and shopping and enjoy the atmosphere of popular cafes open.
 
  </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
